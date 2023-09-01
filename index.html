@@ -10,14 +10,14 @@
                     return peso/(altura**2);
                 }
             alert(" CLIQUE EM OK PARA COMEÇAR");
-            let nome= prompt("GUILHERME CORREA DE ALMEIDA");
-            let peso= prompt(Guilherme+", 100 ?");
-            let altura=prompt(Guilherme+",1,87");
-            let calculo= calcular(peso,);
+            let nome= prompt("Qual seu nome");
+            let peso= prompt(nome+", qual o seu peso?");
+            let altura=prompt(nome+",qual a sua altura");
+            let calculo= calcular(peso,altura);
             let texto=",seu IMC é:";
             let imc=calculo.toFixed(2);
             document.write(nome.italics()+ texto.bold() + imc.fontcolor("blue"));
-
+            
             </script>
         </p>
 
